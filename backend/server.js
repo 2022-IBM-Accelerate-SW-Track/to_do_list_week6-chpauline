@@ -16,6 +16,8 @@ app.use(cookieParser("82e4e438a0705fabf61f9854e3b575af"));
 const bodyParser = require("body-parser");
 const fs = require("fs");
 
+// ...
+
 app.use(cors({
     credentials: true,
     origin: 'http://localhost:3000'
